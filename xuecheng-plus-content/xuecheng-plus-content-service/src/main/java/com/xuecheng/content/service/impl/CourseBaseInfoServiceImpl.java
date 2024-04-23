@@ -106,8 +106,12 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         //向课程基本信息表course_base写入数据
         CourseBase courseBaseNew = new CourseBase();
         //将传入的页面的参数放到courseBaseNew对象
-//        courseBaseNew.setName(dto.getName());
-//        courseBaseNew.setDescription(dto.getDescription());
+
+        /*
+        courseBaseNew.setName(dto.getName());
+        courseBaseNew.setDescription(dto.getDescription());
+        */
+
         //上边的从原始对象中get拿数据向新对象set，比较复杂
         BeanUtils.copyProperties(dto,courseBaseNew);//只要属性名称一致就可以拷贝
         courseBaseNew.setCompanyId(companyId);
