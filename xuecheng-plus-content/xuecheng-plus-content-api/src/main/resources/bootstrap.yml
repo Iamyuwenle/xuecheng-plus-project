@@ -1,7 +1,5 @@
-#server:
-#  servlet:
-#    context-path: /content
-#  port: 63041
+#重新开一个服务
+#  -Dserver.port=63041 spring.profiles.active=dev
 #微服务配置
 spring:
   application:
@@ -29,22 +27,15 @@ spring:
             group: xuecheng-plus-common
             refresh: true
 
-#  datasource:
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    url: jdbc:mysql://192.168.101.65:3306/xc402_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
-#    username: root
-#    password: mysql
 
   profiles:
     active: dev   #环境名
 
-logging:
-  config: classpath:log4j2-dev.xml  # 日志文件配置路径
+## swagger 文档配置
+#      swagger:
+#        title: "学成在线系统接口文档"
+#        description: "学成在线系统接口文档"
+#        base-package: com.xuecheng
+#        enabled: true
 
-
-swagger:
-  title: "学成在线内容管理系统"
-  description: "内容系统管理系统对课程相关信息进行管理"
-  base-package: com.xuecheng.content
-  enabled: true
-  version: 1.0.0
+#        version: 1.0.0
