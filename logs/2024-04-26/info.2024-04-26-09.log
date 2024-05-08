@@ -1,0 +1,20 @@
+2024-04-26 10:41:07,448 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 10:41:07,448 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-26 10:41:07,462 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-04-26 10:41:07,462 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-04-26 10:41:07,463 DEBUG [http-nio-63040-exec-1][DispatcherServlet.java:526] - Detected StandardServletMultipartResolver
+2024-04-26 10:41:07,463 DEBUG [http-nio-63040-exec-1][DispatcherServlet.java:526] - Detected StandardServletMultipartResolver
+2024-04-26 10:41:07,485 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:542] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-26 10:41:07,485 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:542] - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-04-26 10:41:07,485 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 23 ms
+2024-04-26 10:41:07,485 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 23 ms
+2024-04-26 10:41:07,494 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/teachplan/117/tree-nodes", parameters={}
+2024-04-26 10:41:07,494 DEBUG [http-nio-63040-exec-1][LogFormatUtils.java:91] - GET "/content/teachplan/117/tree-nodes", parameters={}
+2024-04-26 10:41:07,501 DEBUG [http-nio-63040-exec-1][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.TeachplanController#getTreeNodes(Long)
+2024-04-26 10:41:07,501 DEBUG [http-nio-63040-exec-1][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.TeachplanController#getTreeNodes(Long)
+2024-04-26 10:41:07,531 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-04-26 10:41:07,531 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-04-26 10:41:07,531 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:285] - Nothing to write: null body
+2024-04-26 10:41:07,531 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:285] - Nothing to write: null body
+2024-04-26 10:41:07,531 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2024-04-26 10:41:07,531 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
