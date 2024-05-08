@@ -12,4 +12,12 @@ import com.xuecheng.content.model.po.CourseBase;
  */
 public interface CourseBaseMapper extends BaseMapper<CourseBase> {
 
+    /**
+     * 自定义查询sql
+     * @param companyid
+     * @return 返回机构id对应的数据
+     */
+    /*@Select("select * from ")
+    CourseBase selectstyleById(@Param("CourseBase") Long companyid);*/
+
 }
